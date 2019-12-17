@@ -65,3 +65,13 @@ text4.collocations()
 text8.collocations()
 
 # The collocations that emerge are very specific to the genre of the texts.
+
+""" list comprehension (python idiom) - performs the same operation on every element of a list """
+
+len(w) for w in text1 # f(x) for e in list 
+w.upper() for w in text1 # w.f(x) for e in list
+len(set(word.lower() for word in text1 if word.isalpha()))
+
+
+
+

@@ -30,7 +30,7 @@ text5.common_contexts(["fuck", "help"])
 
 text4.dispersion_plot(["citizens", "democracy", "freedom", "duties", "America"])
 
-""" generate (deprecated in nltk3.0) """
+""" generate (deprecated in nltk3) """
 
 text1.generate()
 text2.generate()

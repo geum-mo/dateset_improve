@@ -64,7 +64,6 @@ list(bigrams(["more", "is", "said", "than", "done"]))
 text4.collocations()
 text8.collocations()
 
-# The collocations that emerge are very specific to the genre of the texts.
 
 """ list comprehension (python idiom) - performs the same operation on every element of a list """
 
